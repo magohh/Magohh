@@ -1,0 +1,270 @@
+@font-face {
+  font-family: 'NOVABOLD';
+  src: url('../fonts/NOVABOLD.otf')
+}
+
+h1{
+	font-family: NOVABOLD;
+}
+.nova{
+	font-family: NOVABOLD;
+}
+.menu-style{
+	font-family: NOVABOLD;
+	font-size: 1.5em;
+	color:gray!important;
+}
+.bg-black{
+	background-color: black;
+	color:white;
+	height: intrinsic;
+	padding-bottom: 3%;
+}
+.bg-primary{
+	background-color: #2E9AFE;
+}
+@media (max-width: 320px){
+	.name-responsive{
+		font-size: 50px!important;
+	}
+}
+@media (max-width: 480px){
+	.name-responsive{
+		font-size: 50px!important;
+	}
+}
+
+@media (max-width: 768px){
+	.bg-black{
+		height: 160px;
+	}
+}
+
+@media (max-width: 480px){
+	.bg-black{
+		height: 70px;
+	}
+}
+@media (max-width: 320px){
+	.bg-black{
+		height: 70px;
+	}
+}
+.color-gray{
+	color: gray!important;
+}
+.color-primary{
+	color:#2E9AFE;
+}
+.color-secondary{
+	color:#FFBF00;
+}
+.color-white{
+	color:white;
+}
+.photo{
+	width: 50%;
+	display: inline;
+}
+.padding-left-right-25{
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
+.padding-bottom-3{
+	padding-bottom: 3%;
+}
+.padding-left{
+	padding-left: 5%;
+}
+.padding{
+	padding: 3%;
+}
+.margin-left-right-8{
+	margin-left: 8%;
+	margin-right: 8%;
+}
+.margin-bottom{
+	margin-bottom: 5%;
+}
+.margin-top-15{
+	margin-top: 15%;
+}
+.margin-top-3{
+	margin-top: 3%;
+}
+.bordered-1{
+	border: solid 30px #2E9AFE;
+	height: intrinsic;
+}
+@media (max-width: 768px){
+	.bordered-1{
+		border: solid 20px #2E9AFE;
+		height: intrinsic;
+	}
+}
+@media (max-width: 768px){
+	.photo{
+		width: 80%;
+	}
+}
+.bordered-2{
+	border: solid 10px #2E9AFE;
+}
+.bordered-3{
+	border: solid 30px #FFBF00;
+}
+
+.justify{
+	text-align: justify;
+}
+.description{
+	font-size: 25px;
+}
+.description-movil{
+	font-size:20px;
+}
+.call{
+	font-size: 20px;
+	text-decoration: none!important;
+}
+.call:hover{
+	color:white;
+	background-color: black;
+	padding: 3%;
+}
+.window{
+	width: 100%;
+	height: 300px;
+}
+@media (max-width: 480px){
+	.window{
+		width: 100%;
+		height: 180px;
+	}
+}
+
+.project-1{
+	background-image: url(../img/primes.jpg);
+	background-size: cover;
+}
+.project-2{
+	background-image: url(../img/liguepolitico.png);
+	background-size: cover;
+}
+.project-3{
+	background-image: url(../img/lavadero.jpg);
+	background-size: cover;
+}
+.project-4{
+	background-image: url(../img/dashy.jpg);
+	background-size: cover;
+}
+.modal-image{
+	width: 100%;
+}
+.modal-header h4{
+	font-size: 30px;
+}
+i:hover{
+	color:black;
+}
+.fixed{
+	position: fixed;
+}
+.larger{
+	font-size: 120%;
+}
+.xlarger{
+	font-size: 300%
+}
+.medium{
+	font-size: 130%
+}
+.vertical{
+	vertical-align: middle;
+}
+
+.hidden-text{
+	display: none;
+	background-color:black; 
+	filter:alpha(opacity=10);
+	opacity:.6; } 
+	  span { 
+	  	color:white; 
+	  	filter:alpha(opacity=100); 
+	  	opacity:.5;
+
+}
+
+.show-text:hover .text-black{
+	display: block;
+}
+.black{
+	width: 80%;
+	height: 300px;
+	background-color: rgba(0,0,0,0.5);
+	padding: 3%;
+	margin-left:5%;
+
+	
+}
+div.text-black h1{
+	color:white;
+	text-align: center;
+	font-size: 35px;
+}
+.white{
+	color:white; 
+}
+.text-black{
+	text-align:left;
+	display: none;
+	width: 100%;
+	height: intrinsic;
+	margin: auto;
+	font-size: 20px;
+}
+.height-100{
+	height: 100vh;
+}
+
+@media (max-width: 768px){
+	footer{
+		padding: 0px;
+	}
+}
+@media (max-width: 768px){
+	.services{
+		padding: 0px;
+	}
+}
+p{
+	font-family: 'Raleway', sans-serif;
+}
+h4{
+	font-size: 24px;
+}
+@media (max-width: 768px){
+	h2{
+		font-size: 20px;
+	}
+}
+@media (max-width: 768px){
+	.medium{
+		font-size: 100%;
+	}
+}
+.btn-modal{
+	background-color: #2E9AFE;
+	color:white;
+	padding-right: 3%;
+	padding-left: 3%;
+}
+.font-novabold{
+	font-family: Novabold;
+}
+.close{
+	color:#2E9AFE!important;
+	opacity:1!important;
+}
